@@ -88,17 +88,18 @@
 
 .text-center {
     /* (Isto faz a linha) */
-    border-bottom: 2px outset white; 
+    border-bottom: 2px outset white;
     /* (Isto faz dar relacionado ao conteudo) */
-    width: fit-content; 
+    width: fit-content;
     margin: 0 auto;
     text-align: center;
 }
+
 .card.flex-row {
     flex-direction: row;
 }
 
-.img-fluid{
+.img-fluid {
     object-fit: cover;
 
 }
@@ -110,7 +111,7 @@
     .card.flex-row {
         flex-direction: column;
     }
-    
+
     .card-img-left {
         width: 100% !important;
         max-width: none !important;
@@ -123,4 +124,8 @@
     object-fit: cover;
     height: auto;
     flex-shrink: 0;
+}
+
+html {
+    scroll-behavior: smooth !important;
 }
